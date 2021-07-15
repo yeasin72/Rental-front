@@ -1,0 +1,87 @@
+.login-page{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.login-main-content{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-area{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-area img{
+    width: 250px;
+    padding: 30px;
+}
+.login-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.login-form-pass{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.login-form input, .login-form-pass input{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    padding: 10px 10px;
+    width: 300px;
+    height: 25px;
+    font-size: 17px;
+    border: 1px solid var(--greywhite);
+}
+
+.login-form-pass .MuiSvgIcon-root{
+    color: var(--blue);
+    margin-right: -280px;
+    margin-top: -35px;
+}
+
+.login-form input:focus, .login-form-pass input:focus{
+    outline: none;
+}
+
+.login-submit{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-submit button{
+    margin-top: 40px;
+    width: 320px;
+    padding: 12px;
+    border: 1px solid var(--blue);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.login-submit button:hover{
+    background: var(--white);
+    color: var(--blue);
+    transition: .5s;
+}

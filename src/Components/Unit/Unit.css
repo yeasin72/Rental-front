@@ -1,0 +1,30 @@
+.single-unit-page{
+    width: 100%;
+    background: var(--fibg);
+    min-height: 1000px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    
+}
+.single-unit-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.single-u-c-heading{
+    width: 100%;
+    background: var(--bluedark);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+.single-u-c-heading .unit-number-id, .single-u-c-heading .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2px;
+}
