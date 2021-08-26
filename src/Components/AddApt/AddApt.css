@@ -1,0 +1,103 @@
+.add-apt-main{
+    width: 100%;
+    padding-top: 50px;
+    height: 1000px;
+    background: var(--fibg);
+}
+.apt-details-form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.form-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-item-col{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.form-content .form-item-col .content-item{
+    width: 100%;
+    display: flex;
+    padding: 15px 30px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.form-content .form-item-col .content-item h1{
+    font-size: 35px;
+}
+.form-content .form-item-col .content-item.apt-address{
+    width: 100%;
+    padding: 15px 30px;
+    display: block;
+    box-sizing: border-box;
+}
+.form-content .form-item-col .content-item input{
+    width: 100%;
+    padding: 10px;
+    background: var(--white);
+    border: 1px solid var(--greywhite);
+    font-size: 18px;
+}
+.form-content .form-item-col .content-item textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--greywhite);
+    font-size: 18px;
+}
+.form-content .form-item-col .content-item textarea:focus{
+    outline: none;
+}
+.form-content .form-item-col .content-item input:focus{
+    outline: none;
+}
+.ui-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ui-content svg{
+    height: 100%;
+    width: 100%;
+    color: var(--blue);
+
+}
+.form-content .form-item-col .content-item label{
+    font-size: 18px;
+    color: rgb(110, 110, 110);
+    padding: 10px;
+    font-weight: 700;
+}
+.form-content .form-item-col .content-item select{
+    width: 107%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid var(--greywhite);
+    color: rgb(110, 110, 110);
+}
+.form-content .form-item-col .content-item.start-date,
+.form-content .form-item-col .content-item.end-date,
+.form-content .form-item-col .content-item.status{
+    display: flex;
+    padding-right: 8px;
+    flex-direction: row;
+}
+
+.form-content .form-item-col .content-item.start-date input{
+    width: 92%;
+}
+
+.form-content .form-item-col .content-item.end-date input{
+    width: 96%;
+}
+.form-content .form-item-col .content-item select:focus{
+    outline: none;
+}
+/* .form-content .form-item-col .content-item select */

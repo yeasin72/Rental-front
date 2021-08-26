@@ -1,0 +1,57 @@
+.appertments-main{
+    width: 100%;
+    margin-top: 50px;
+}
+.all-appertment{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.apt-item{
+    padding: 15px;
+    box-sizing: border-box;
+    background: var(--bluedark);
+    margin: 1%;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    
+}
+.apt-item .item-left{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.apt-item .item-left svg{
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+}
+.apt-item .item-left button svg{
+    width: 18px;
+    height: 18px;
+    margin-bottom: -3px;
+}
+.apt-item .item-left h4 svg,
+.apt-item .item-left p svg{
+    width: 15px;
+    height: 15px;
+    margin-bottom: -2px;
+    margin-right: 5px;
+}
+.apt-item .item-right{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.apt-item .item-right svg{
+    width: 70px;
+    height: 70px;
+    color: var(--blue);
+}
+.apt-item .item-left button.apt-doc-download{
+    width: 80%;
+}

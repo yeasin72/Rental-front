@@ -22,7 +22,7 @@ const Download = () => {
         */ 
         
             
-        <button className="default-button" onClick={downloadDocument}>Download</button>
+        <button className="default-button" onClick={downloadDocument}>Print</button>
     )
 }
 

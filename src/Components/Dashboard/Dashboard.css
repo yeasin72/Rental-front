@@ -1,0 +1,16 @@
+.dashboard-main{
+    background: var(--fibg);
+    padding-top: 50px;
+}
+.dashboard-content{
+    display: flex;
+    flex-direction: column;
+}
+.dashboard-content div.dashboard-top-panel,
+.dashboard-content div.dashboard-middle-panel{
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.dashboard-content div.dashboard-middle-panel{
+    background: var(--white);
+}

@@ -19,7 +19,7 @@ const Unit = () => {
             <div className="container">
                 <div className="single-unit-content" id="unitdetails">
                     <div className="single-u-c-heading">
-                    <div className="unit-number-id">Market 1
+                    <div className="unit-number-id">Apt name
                         </div>
                         <div className="icon"><ViewModuleIcon /></div>
                         <div className="unit-number-id">UNIT NO: RF45644
@@ -30,18 +30,19 @@ const Unit = () => {
                             <div className="s-u-basic-content">
                                 <div className="item"><ViewModuleIcon /><b>Unit Number:</b> F20</div>
                                 <div className="item"><ShoppingCartIcon /><b>Unit Type:</b> Shop</div>
-                                <div className="item"><AccountBalanceWalletIcon /><b>Rent:</b> 20000$</div>
-                                <div className="item"><WhatshotIcon /><b>Gas Bill:</b> 20000$</div>
-                                <div className="item"><SettingsInputAntennaIcon /><b>Electricity Bill:</b> 20000$</div>
+                                <div className="item"><AccountBalanceWalletIcon /><b>Rent:</b> 20000 ৳</div>
+                                <div className="item"><WhatshotIcon /><b>Gas Bill:</b> 20000 ৳</div>
+                                <div className="item"><SettingsInputAntennaIcon /><b>Electricity Bill:</b> 20000 ৳</div>
                                 <div className="item"><LibraryAddCheckIcon /><b>Status:</b> Empty</div>
                             </div>
                         </div>
                         <div className="single-unit-main-mid">
                             <HomeWorkIcon />
-                            <img src="./img/logo.svg" alt="" />
+                            <img className="nid-card" src="./img/nid.jpg" alt="" />
                             <h5>Note</h5>
                             <p>The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value.</p>
                             <Download />
+                            <button className="edit-room default-button">Edit</button>
                         </div>
                         <div className="single-unit-main-right">
                             <div className="s-u-basic-content">
@@ -50,7 +51,7 @@ const Unit = () => {
                                 <div className="item"><AccountBalanceWalletIcon /><b>Advance Amount:</b> 20000 ৳</div>
                                 <div className="item"><AccessAlarmIcon /><b>Start Time:</b> 01/5/2022</div>
                                 <div className="item"><AccessAlarmIcon /><b>End Time:</b> 01/5/2022</div>
-                                <div className="item"><AttachFileIcon /><b>Attachments:</b> <a href="#" className="download">Download</a></div>
+                                <div className="item"><AttachFileIcon /><b>Attachments:</b> <a href="/" className="download">Download</a></div>
                             </div>
                         </div>
                     </div>

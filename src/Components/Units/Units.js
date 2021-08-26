@@ -3,6 +3,7 @@ import './Units.css';
 import ViewModuleIcon from '@material-ui/icons/ViewModule';
 
 const Units = () => {
+    //  === All units from same Apt. ===
     return (
         <div className="units-page">
             <div className="container">
@@ -17,14 +18,14 @@ const Units = () => {
                     <div className="all-unit">
 
                         {/* 
-                        === This item need should be loop === 
+                        === Unit Loop [.,.,.,] === 
                         */}
 
                         <div className="single-unit">
                             <div className="unit-number">
                                 <div className="icon"><ViewModuleIcon /></div>
                                 <div className="unit-number-id">
-                                    <a className="room-number" href="#">RF45644</a>
+                                    <a className="room-number" href="/">RF45644</a>
                                 </div>
                             </div>
                             <div className="unit-size">200sq</div>
@@ -36,7 +37,7 @@ const Units = () => {
                             <div className="unit-number">
                                 <div className="icon"><ViewModuleIcon /></div>
                                 <div className="unit-number-id">
-                                    <a className="room-number" href="#">RF45644</a>
+                                    <a className="room-number" href="/">RF45644</a>
                                 </div>
                             </div>
                             <div className="unit-size">200sq</div>
