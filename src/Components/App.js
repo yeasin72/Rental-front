@@ -1,10 +1,10 @@
 import './App.css';
 import Navigation from './Navigation/Navigation'
-// import Login from './Login/Login';
-// import Units from './Units/Units';
+import Login from './Login/Login';
+import Units from './Units/Units';
 import Unit from './Unit/Unit'
-// import Apertments from './Apertments/Apertments'
-// import AddApt from './AddApt/AddApt'
+import Apertments from './Apertments/Apertments'
+import AddApt from './AddApt/AddApt'
 import AddUnit from './AddUnit/AddUnit'
 import Dashboard from './Dashboard/Dashboard'
 import Topbar from './Topbar/Topbar'
@@ -15,11 +15,11 @@ function App() {
       <Topbar />
       <Navigation />
       <Dashboard />
-      {/* <Login /> */}
-      {/* <Units /> */}
+      <Login />
+      <Units />
       <Unit />
-      {/* <Apertments /> */}
-      {/* <AddApt /> */}
+      <Apertments />
+      <AddApt />
       <AddUnit />
     </div>
   );

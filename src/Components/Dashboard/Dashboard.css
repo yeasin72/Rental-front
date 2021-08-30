@@ -1,16 +1,97 @@
 .dashboard-main{
     background: var(--fibg);
     padding-top: 50px;
+    padding-bottom: 150px;
 }
 .dashboard-content{
     display: flex;
     flex-direction: column;
 }
-.dashboard-content div.dashboard-top-panel,
+
 .dashboard-content div.dashboard-middle-panel{
     margin-bottom: 15px;
     padding: 15px;
+    border: 1px #e5e5e5 solid;
+    box-sizing: border-box;
 }
 .dashboard-content div.dashboard-middle-panel{
     background: var(--white);
+}
+.dashboard-content div.dashboard-top-panel{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.dashboard-top-panel .money-item{
+    width: 25%;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: var(--white);
+    margin-left: 0;
+    border: 1px #e5e5e5 solid;
+}
+.money-item .amount-and-icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.money-item .amount-and-icon .amount-box{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.money-item .amount-and-icon .amount-box .short-head{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(107, 119, 140);
+    text-transform: uppercase;
+}
+.money-item .amount-and-icon .amount-box .amount{
+    font-weight: 500;
+}
+.money-item .amount-and-icon .icon-box{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #3949AB;
+    border: 0px solid;
+    border-radius: 50%;
+    color: var(--white);
+}
+
+.money-item .description{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.money-item .description .icon{
+    width: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #43A047;
+    justify-content: center;
+}
+.money-item .description .text{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.money-item .description .text .amount-heading{
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    color: var(--bluedark);
+    font-size: 16px;
+    font-weight: 500;
 }

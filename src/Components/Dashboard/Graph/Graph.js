@@ -76,7 +76,7 @@ import {
       amt: 2100
     },
     {
-      name: "Dicembar",
+      name: "Decembar",
       uv: 10090,
       pv: 4300,
       amt: 2100

@@ -1,0 +1,72 @@
+.dashboard-panding-rent-units{
+    width: 100%;
+    height: auto;
+    
+}
+.panding-rent-unit-main{
+    width: 100%;
+    height: auto;
+
+}
+.panding-units{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.panding-units .heading{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background: var(--bluedark);
+    box-sizing: border-box;
+    border: 1px solid var(--bluedark);
+}
+.heading .unit-number,
+.heading .unit-tenant,
+.heading .unit-tenant-phone,
+.heading .unit-rent{
+    width: 25%;
+    color: var(--white);
+    box-sizing: border-box;
+    padding: 7px 12px;
+    font-weight: 500;
+}
+
+.panding-units .unit-item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background: var(--white);
+    box-sizing: border-box;
+    border: 1px #e5e5e5 solid;
+    border-top: 0px;
+}
+
+.unit-item .unit-number,
+.unit-item .unit-tenant,
+.unit-item .unit-tenant-phone,
+.unit-item .unit-rent{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 7px 12px;
+}
+.unit-item .unit-number a,
+.unit-item .unit-tenant h4,
+.unit-item .unit-tenant-phone h4,
+.unit-item .unit-rent h4{
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    color: var(--bluedark);
+    font-size: 16px;
+    outline: none;
+    font-weight: 500;
+    text-decoration: none;
+    align-items: center;
+}
+
+.panding-units .unit-item:hover{
+    background: #F4F4F4;
+}
